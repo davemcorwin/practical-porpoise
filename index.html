@@ -1,27 +1,151 @@
-<!DOCTYPE html>
-<html>    
+<!doctype html>
+<html lang="en">
+
 <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Practical software solutions for your business">
   <title>Practical Porpoise</title>
-  <meta charset="utf-8" />
-  <meta name="description" content="Practical Porpoise LLC" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <style>
-    body{
-      margin: 0px;
-      background-color: #5d9e5d;
-      color: #d6d6d6;
-      height: 100vh;
-      width: 100vw;
-      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-      font-size: 20vw;
-    }
-    div{
-      margin-left: 4vw;
-      transform: rotate(-5deg);
-    }
-  </style>
+
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css" integrity="sha384-nn4HPE8lTHyVtfCBi5yW9d20FjT8BJwUXyWZT9InLYax14RDjBj46LmSztkmNP9w"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/grids-responsive-min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="css/layouts/marketing.css">
 </head>
+
 <body>
-  <div>Practical Porpoise</div>
+  <header class="header pure-menu pure-menu-horizontal">
+    <a class="pure-menu-heading pure-menu-link" href="#home">Practical Porpoise</a>
+    <ul class="pure-menu-list">
+      <li class="pure-menu-item">
+        <a href="#contact" class="pure-menu-link">Contact</a>
+      </li>
+    </ul>
+  </header>
+
+  <div id="home" class="content-container splash">
+    <div>
+      <h1 class="splash-head">
+        <div class="splash-head-line">Be practical</div>
+        <div class="splash-head-line">build with porpoise</div>
+      </h1>
+      <p class="splash-subhead">
+        Practical software solutions for your business.
+      </p>
+      <p class="splash-action">
+        <a href="#contact" class="pure-button pure-button-primary">Get Started</a>
+      </p>
+    </div>
+  </div>
+
+  <div id="services" class="content-container services">
+    <h2 class="content-head is-center">Build what you need, and nothing more.</h2>
+
+    <div class="pure-g">
+
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3 class="content-subhead">
+          <i class="fa fa-laptop" aria-hidden="true"></i>
+          Develop
+        </h3>
+        <p>
+          Fast, simple, and user-friendly web applications for any business.
+        </p>
+      </div>
+
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3 class="content-subhead">
+          <i class="fa fa-magic" aria-hidden="true"></i>
+          Automate
+        </h3>
+        <p>
+          Automate repetitive processes to focus on your core business.
+        </p>
+      </div>
+
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3 class="content-subhead">
+          <i class="fa fa-connectdevelop" aria-hidden="true"></i>
+          Connect
+        </h3>
+        <p>
+          Connect your existing solutions to supercharge your workflow.
+        </p>
+      </div>
+
+      <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
+        <h3 class="content-subhead">
+          <i class="fa fa-rocket" aria-hidden="true"></i>
+          Deliver
+        </h3>
+        <p>
+          Solutions delivered in weeks, not months.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="about" class="content-container ribbon">
+    <div class="l-box-lrg pure-g">
+      <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5 image">
+        <img width="300" alt="Make It Happen" class="pure-img-responsive" src="images/pexels-photo-669986.jpeg">
+      </div>
+      <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+
+        <h2 class="content-head content-head-ribbon">lets build together</h2>
+
+        <p>
+          We have over a decade of experience building custom software solutions and integrations for businesses of all shapes and
+          sizes. We will work with you to solve your toughest problems, from small automation tasks to large web applications
+          and hosting.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div id="contact" class="content-container contact">
+    <h2 class="content-head is-center">Contact Us</h2>
+
+    <div class="pure-g">
+      <div class="l-box-lrg pure-u-1">
+        <form class="pure-form pure-form-stacked" netlify-honeypot="spam-field" action="thank-you" netlify>
+          <fieldset>
+
+            <input name="spam-field" type="text" class="hidden">
+
+            <label for="name">Full Name</label>
+            <input id="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+
+            <label for="phone">Phone</label>
+            <input id="phone" type="tel" required>
+
+            <label for="via">Best way to contact you?</label>
+            <select id="via" required>
+              <option>Email</option>
+              <option>Phone</option>
+            </select>
+
+            <label for="description">How can we help you?</label>
+            <textarea id="description" class="pure-input-1" required></textarea>
+
+            <br/>
+
+            <button type="submit" class="pure-button block">Send</button>
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer l-box is-center">
+    Practical Porpoise LLC
+  </div>
+
+  </div>
 </body>
+
 </html>
