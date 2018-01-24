@@ -98,7 +98,6 @@ a.pure-button-primary {
 
 .header {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-  // background: #2d3e50;
   background: #0f5738;
   display: flex;
   justify-content: space-between;
@@ -150,9 +149,8 @@ a.pure-button-primary {
  */
 
 .splash {
-  // background: #1f8dd6;
   background: #499272;
-  margin-top: 51px;
+  margin-top: 50px;
   padding: 3em 0;
   text-align: center;
   text-transform: uppercase;
