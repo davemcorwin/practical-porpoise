@@ -157,7 +157,6 @@ a.pure-button-primary {
   margin-top: 42px;
   padding: 3em 0;
   text-align: center;
-  text-transform: uppercase;
 }
 
 /* This is the main heading that appears on the blue section */
@@ -168,6 +167,7 @@ a.pure-button-primary {
   font-weight: 100;
   line-height: 1em;
   margin-top: 0;
+  text-transform: uppercase;
 }
 
 .splash-head-line:not(:last-child) {
@@ -179,7 +179,6 @@ a.pure-button-primary {
   color: white;
   letter-spacing: 0.05em;
   margin-bottom: 2em;
-  opacity: 0.9;
 }
 
 .splash-action {
