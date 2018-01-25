@@ -31,7 +31,8 @@ h5,
 h6,
 input,
 label,
-select {
+select,
+textarea {
   color: #34495e;
 }
 
@@ -178,7 +179,7 @@ a.pure-button-primary {
   color: white;
   letter-spacing: 0.05em;
   margin-bottom: 2em;
-  opacity: 0.8;
+  opacity: 0.9;
 }
 
 .splash-action {
@@ -259,6 +260,10 @@ a.pure-button-primary {
     font-size: 350%;
   }
 
+  .splash-subhead {
+    font-size: 150%;
+  }
+
   /* We remove the border-separator assigned to .l-box-lrg */
   .l-box-lrg {
     border: none;
@@ -279,5 +284,9 @@ a.pure-button-primary {
   /* We increase the header font size even more */
   .splash-head {
     font-size: 400%;
+  }
+
+  .splash-subhead {
+    font-size: 200%;
   }
 }
