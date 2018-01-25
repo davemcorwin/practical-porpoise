@@ -1,0 +1,8 @@
+{
+  "name": "Practical Porpoise",
+  "short_name": "PPorpoise",
+  "background_color": "#fff",
+  "description": "Practical software solutions for your business.",
+  "start_url": ".",
+  "display": "browser"
+}

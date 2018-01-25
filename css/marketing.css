@@ -29,7 +29,9 @@ h3,
 h4,
 h5,
 h6,
-label {
+input,
+label,
+select {
   color: #34495e;
 }
 
@@ -215,7 +217,7 @@ a.pure-button-primary {
 /* This is the class used for the dark-background areas. */
 .ribbon {
   background: #0f5738;
-  color: #aaa;
+  color: #cbcbcb;
 }
 
 .contact .l-box-lrg {
