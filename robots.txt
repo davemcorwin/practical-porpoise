@@ -1,0 +1,4 @@
+Sitemap: https://www.practicalporpoise.com/sitemap.xml
+
+User-agent: *
+Disallow: /thank-you
