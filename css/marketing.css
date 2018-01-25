@@ -20,7 +20,7 @@
 body {
   line-height: 1.7em;
   color: #7f8c8d;
-  font-size: 13px;
+  font-size: 16px;
 }
 
 h1,
@@ -118,8 +118,9 @@ a.pure-button-primary {
   font-size: 120%;
 }
 
-.header .pure-menu-selected a {
-  color: #6fbef3;
+.header .pure-menu-heading,
+.header .pure-menu-link {
+  padding: 0;
 }
 
 .header a {
@@ -152,7 +153,7 @@ a.pure-button-primary {
 
 .splash {
   background: #499272;
-  margin-top: 50px;
+  margin-top: 42px;
   padding: 3em 0;
   text-align: center;
   text-transform: uppercase;
@@ -160,7 +161,7 @@ a.pure-button-primary {
 
 /* This is the main heading that appears on the blue section */
 .splash-head {
-  font-size: 20px;
+  font-size: 32px;
   font-weight: bold;
   color: white;
   font-weight: 100;
@@ -245,12 +246,17 @@ a.pure-button-primary {
     font-size: 16px;
   }
 
+  .header .pure-menu-heading,
+  .header .pure-menu-link {
+    padding: 0.5em 1em;
+  }
+
   .splash-container {
     margin-top: 62px;
   }
 
   .splash-head {
-    font-size: 250%;
+    font-size: 350%;
   }
 
   /* We remove the border-separator assigned to .l-box-lrg */
@@ -272,6 +278,6 @@ a.pure-button-primary {
 @media (min-width: 78em) {
   /* We increase the header font size even more */
   .splash-head {
-    font-size: 300%;
+    font-size: 400%;
   }
 }
