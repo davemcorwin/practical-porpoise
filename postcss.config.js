@@ -1,5 +1,7 @@
+const tailwind = require('tailwindcss');
+
 const plugins = [
-  require('tailwindcss')
+  tailwind('./tailwind.js')
 ];
 
 if (process.env.NODE_ENV === 'production') {
@@ -17,7 +19,7 @@ if (process.env.NODE_ENV === 'production') {
     extractors: [
       {
         extractor: TailwindExtractor,
-        extensions: ["html"]
+        extensions: ['html']
       }
     ]
   }));
