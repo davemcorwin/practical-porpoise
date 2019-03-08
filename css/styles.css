@@ -5,15 +5,3 @@
 html {
   scroll-behavior: smooth;
 }
-
-@responsive {
-  .text-6xl {
-    font-size: 4rem;
-  }
-}
-
-@responsive {
-  .text-7xl {
-    font-size: 6rem;
-  }
-}
