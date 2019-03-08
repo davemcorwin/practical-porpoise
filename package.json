@@ -1,0 +1,29 @@
+{
+  "name": "practical-porpoise",
+  "version": "1.0.0",
+  "description": "The homepage for Practical Porpoise",
+  "main": "index.js",
+  "scripts": {
+    "build:bundle": "parcel build index.html",
+    "build:clean": "rm -rf dist",
+    "build:copy": "cp robots.txt sitemap.xml dist",
+    "build": "npm run build:clean && npm run build:bundle && npm run build:copy",
+    "dev": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davemcorwin/practical-porpoise.git"
+  },
+  "author": "dave@practicalporpoise.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davemcorwin/practical-porpoise/issues"
+  },
+  "homepage": "https://github.com/davemcorwin/practical-porpoise#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
+    "parcel-bundler": "^1.11.0",
+    "tailwindcss": "^0.7.4"
+  }
+}
