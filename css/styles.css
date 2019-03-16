@@ -5,3 +5,19 @@
 html {
   scroll-behavior: smooth;
 }
+
+.cta {
+  @apply text-2xl mx-auto my-0 block font-bold bg-blue-dark text-white p-4 no-underline border border-blue-dark rounded shadow
+}
+
+.cta:hover {
+  @apply bg-blue-dark-shade
+}
+
+.gradient {
+  background: linear-gradient(to right,#e2e4eb,rgb(177, 177, 199));
+}
+
+.gradient-reverse {
+  background: linear-gradient(to right,rgb(177, 177, 199), #e2e4eb);
+}
