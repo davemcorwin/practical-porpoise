@@ -9,15 +9,15 @@ class TailwindExtractor {
 
 const plugins = [
   tailwind('./tailwind.js'),
-  purgecss({
-    content: ['./index.html'],
-    extractors: [
-      {
-        extractor: TailwindExtractor,
-        extensions: ['html']
-      }
-    ]
-  }),
+  // purgecss({
+  //   content: ['./index.html'],
+  //   extractors: [
+  //     {
+  //       extractor: TailwindExtractor,
+  //       extensions: ['html']
+  //     }
+  //   ]
+  // }),
   require('autoprefixer')
 ];
 

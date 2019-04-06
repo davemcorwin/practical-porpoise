@@ -14,6 +14,14 @@ html {
   @apply bg-blue-dark-shade
 }
 
+.nav-link {
+  @apply text-xl font-thin px-8 no-underline text-blue-darker
+}
+
+.nav-link:hover {
+  @apply text-blue-dark
+}
+
 .gradient {
   background: linear-gradient(to right,#e2e4eb,rgb(177, 177, 199));
 }
