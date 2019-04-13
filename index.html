@@ -49,44 +49,46 @@
   <main id="main">
 
     <section class="gradient px-5 md:px-10">
-      <div class="text-white pt-16 pb-8">
+      <div class="text-white pt-16 md:pt-24 pb-8">
         <h1 class="text-5xl md:text-6xl font-semibold leading-tight mb-6">
           Be practical,
-          build with porpoise.
+          <div>build with porpoise.</div>
         </h1>
         <h2 class="text-2xl md:text-3xl font-light leading-tight mb-10">
           Strategy, software, and solutions for your toughest tech problems.
         </h2>
-        <a href="#contact" class="mx-auto inline-block text-lg bg-teal-800 hover:bg-teal-900 text-white py-3 px-6 border border-teal-800 rounded shadow-lg">
-          Contact Us
-        </a>
+        <div class="md:mt-4 md:flex justify-center">
+          <a href="#contact" class="mx-auto inline-block text-lg bg-teal-800 hover:bg-teal-900 text-white py-3 px-6 border border-teal-800 rounded shadow-lg md:my-8">
+            Contact Us
+          </a>
+        </div>
       </div>
     </section>
     
-    <section id="services" class="px-5 md:px-10 pb-8 bg-white-tint">
-      <h2 class="text-black text-3xl font-semibold text-center pt-8">Our Services</h2>
-      <div>
-        <div class="mt-10">
-          <img class="m-auto w-32 mt-4" src="images/collaborate.svg" alt="collaborative idea by Vectors Market from the Noun Project"
+    <section id="services" class="px-5 md:px-10 pb-8 md:pb-12 bg-white-tint">
+      <h2 class="text-black text-3xl md:text-4xl font-semibold text-center pt-8">Our Services</h2>
+      <div class="md:flex justify-between">
+        <div class="mt-10 md:w-1/3 md:px-6">
+          <img class="m-auto h-32 mt-4" src="images/collaborate.svg" alt="collaborative idea by Vectors Market from the Noun Project"
             aria-hidden="true">
-          <h3 class="text-2xl font-medium pb-2 -mt-2 leading-tight">Consulting</h3>
+          <h3 class="text-2xl font-medium pb-2 leading-tight">Consulting</h3>
           <p class="text-lg leading-normal text-gray-900 opacity-75">
-            We apply user-centered design methodologies to fully understand you, your business, and your customers. We tailor our approach to create practical solutions that match your current needs and nothing more. Whether you need help with vendors, integrations, custom software solutions, or just some advice, Practical Porpoise can help.
+            We apply user-centered design methodologies to fully understand you, your business, and your customers. We tailor our approach to create practical solutions that match your current needs and nothing more. We can help with vendors, integrations, custom software solutions, or just some advice.
           </p>
         </div>
-        <div class="mt-10">
-          <img class="m-auto w-32 mt-4" src="images/integration.svg" alt="integration by Gregor Cresnar from the Noun Project" aria-hidden="true">
-          <h3 class="text-2xl font-medium pb-2 -mt-2 leading-tight">Systems integration</h3>
+        <div class="mt-10 md:w-1/3 md:px-6">
+          <img class="m-auto h-32 mt-4" src="images/integration.svg" alt="integration by Gregor Cresnar from the Noun Project" aria-hidden="true">
+          <h3 class="text-2xl font-medium pb-2 leading-tight">Systems integration</h3>
           <p class="text-lg leading-normal text-gray-900 opacity-75">
-            If you have existing systems you wish would talk to each other, or tasks you want to automate, we will take the time to understand your business to take full advantage of your existing systems and optimize your workflow. Technology should enhance your business not slow you down, Practical Porpoise can make this happen.
+            If you have existing systems you wish would talk to each other, or tasks you want to automate, we will take the time to understand your business to take full advantage of your existing systems and optimize your workflow. Technology should enhance your business not slow you down, Practical Porpoise will make this happen.
           </p>
         </div>
-        <div class="mt-10">
-          <img class="m-auto w-32" src="images/coding.svg" alt="coding by Konrad Michalik from the Noun Project"
+        <div class="mt-10 md:w-1/3 md:px-6">
+          <img class="m-auto h-32 mt-4" src="images/coding.svg" alt="coding by Konrad Michalik from the Noun Project"
   aria-hidden="true">
-          <h3 class="text-2xl font-medium pb-2 -mt-6 leading-tight">Custom web and application development</h3>
+          <h3 class="text-2xl font-medium pb-2 leading-tight">Custom web and application development</h3>
           <p class="text-lg leading-normal text-gray-900 opacity-75">
-            Ready to launch a new product or build an internal tool to supercharge your workflow? From rapid prototyping to enterprise-grade systems, from section 508 to HIPAA compliance, Practical Porpoise can do it all.
+            Ready to launch a new product, build an internal tool to supercharge your workflow, or evaluate your current system? From rapid prototyping to enterprise-grade systems, from section 508 to HIPAA compliance, Practical Porpoise can build it.
           </p>
         </div>
       </div>
@@ -98,49 +100,60 @@
       </div>
     </section>
 
-    <section id="technologies" class="px-5 md:px-10 pb-8 bg-teal-800 text-white">
-      <h2 class="text-3xl font-semibold text-center pt-8">Our Technologies</h2>
-      <p class="text-lg leading-normal mt-10">We utilize modern, battle-tested, open-source technologies to fully leverage
+    <section id="technologies" class="px-5 md:px-10 pb-8 md:pb-12 bg-teal-800 text-white">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center pt-8">Our Technologies</h2>
+      <p class="text-lg leading-normal mt-10 max-w-4xl md:mx-auto">We utilize modern, battle-tested, open-source technologies to fully leverage
         the best the programming community has to offer. This minimizes costs to our clients, prevents vendor lock-in, and
         ensures the continued maintainability of our work.</p>
-      <div>
-        <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Languages and Libraries</h3>
-        <ul class="list-disc list-inside">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>Javascript | Express | React | JQuery</li>
-          <li>Ruby | Rails | Sinatra</li>
-          <li>Elixir | Phoenix</li>
-        </ul>
-        <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Databases</h3>
-        <ul class="list-disc list-inside">
-          <li>Postgres</li>
-          <li>MySQL</li>
-          <li>Redis</li>
-        </ul>
-        <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Platforms and Infrastructure</h3>
-        <ul class="list-disc list-inside">
-          <li>AWS</li>
-          <li>Cloud Foundry</li>
-          <li>Heroku</li>
-          <li>Gigalixir</li>
-          <li>Now</li>
-          <li>Netlify</li>
-        </ul>
+      <div class="md:flex justify-between max-w-4xl md:mx-auto">
+        <div>
+          <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Languages and Libraries</h3>
+          <ul class="list-disc list-inside">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Javascript | React | JQuery</li>
+            <li>Node | Express</li>
+            <li>Ruby | Rails</li>
+            <li>Elixir | Phoenix</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Databases</h3>
+          <ul class="list-disc list-inside">
+            <li>SQL | Postgres | MySQL</li>
+            <li>NoSQL | Mongo | Couch</li>
+            <li>Other | Redis | MemCached</li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-2xl font-medium pb-2 mt-6 leading-tight">Platforms and Infrastructure</h3>
+          <ul class="list-disc list-inside">
+            <li>AWS</li>
+            <li>Cloud Foundry</li>
+            <li>Heroku</li>
+            <li>Gigalixir</li>
+            <li>Netlify</li>
+            <li>Now</li>
+          </ul>
+        </div>
       </div>
     </section>
 
-    <section id="work" class="px-5 md:px-10 pb-8 bg-white-tint">
-      <h2 class="text-black text-3xl font-semibold text-center pt-8">Our Work</h2>
-      <div>
-        <div class="mt-10">
-          <h3 class="text-2xl font-medium pb-4 leading-tight">Litwin Law</h3>
+    <section id="work" class="px-5 md:px-10 pb-8 md:pb-12 bg-white-tint">
+      <h2 class="text-black text-3xl md:text-4xl font-semibold text-center pt-8">Our Work</h2>
+      <div class="md:flex justify-between">
+        <div class="mt-10 md:w-1/2 md:px-6">
+          <div class="h-24 mb-6 flex flex-col-reverse">
+            <img class="mx-auto h-32" src="images/litwinlaw.png" alt="Litwin Law">
+          </div>
           <p class="text-lg leading-normal text-gray-900 opacity-75">
             Litwin Law wanted to improve on their already outstanding service by making it easy for clients to view documents day or night and pay their invoices. They wanted to leverage their current infrastructure, so we worked together to create a client portal on their existing website to accept payments online and connect their clients to their document managament system.
           </p>
         </div>
-        <div class="mt-10">
-          <h3 class="text-2xl font-medium pb-4 leading-tight">Gregg M Corwin & Associate</h3>
+        <div class="mt-10 md:w-1/2 md:px-6">
+          <div class="h-24 mb-6 flex flex-col-reverse">
+            <img class="mx-auto" src="images/gcorwin.png" alt="Gregg M Corwin & Associate">
+          </div>
           <p class="text-lg leading-normal text-gray-900 opacity-75">
             Gregg M. Corwin and Associates was concerned about the costs of their current website provider and wanted to understand their options. We partnered with them to understand their requirements and how important their website is to their business, eventually moving it to a lower cost service without losing any functionality.
           </p>
@@ -148,15 +161,18 @@
       </div>
     </section>
     
-    <section id="about" class="px-5 md:px-10 pb-8 bg-gray-300">
-      <h2 class="text-black text-3xl font-semibold text-center pt-8">About Us</h2>
-      <p class="text-lg leading-normal text-gray-900 opacity-75 mt-10">
-        We have over a decade of experience helping businesses navigate the technology landscape, integrate existing systems, or build custom software solutions. We will work alongside you to plan your journey, make empowering decisions, and solve your toughest technology problems.
-      </p>
+    <section id="about" class="px-5 md:px-10 pb-8 md:pb-12 bg-gray-300">
+      <h2 class="text-black text-3xl md:text-4xl font-semibold text-center pt-8">About Us</h2>
+      <div class="mt-10 md:flex max-w-4xl md:mx-auto">
+        <img class="mx-auto h-64 w-64 mb-6 flex-none" src="images/dave.jpg" alt="Dave Corwin">
+        <p class="text-lg leading-normal text-gray-900 md:pl-8">
+          We have over a decade of experience helping businesses navigate the technology landscape, integrate existing systems, or build custom software solutions. We will work alongside you to plan your journey, make empowering decisions, and solve your toughest technology problems.
+        </p>
+      </div>
     </section>
 
     <section id="contact" class="px-5 md:px-10 pb-8 bg-white md:bg-gray-100 py-10 md:px-10">
-      <h2 class="text-black text-3xl font-semibold text-center">Contact Us</h2>
+      <h2 class="text-black text-3xl md:text-4xl font-semibold text-center">Contact Us</h2>
       <div class="flex justify-center">
         <form class="bg-white md:shadow-xl rounded px-8 pt-6 md:pb-8 mb-4 w-full lg:w-1/2" netlify-honeypot="spam-field" action="thank-you" netlify>
           <input name="spam-field" type="text" class="hidden">
