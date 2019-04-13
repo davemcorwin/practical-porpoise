@@ -8,3 +8,6 @@ html {
 .gradient {
   background: linear-gradient(to right, theme('colors.teal.600'), theme('colors.teal.500') );
 }
+.gradient2 {
+  background: linear-gradient(theme('colors.white'), theme('colors.white-tint') );
+}
