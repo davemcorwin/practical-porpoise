@@ -11,3 +11,6 @@ html {
 .gradient2 {
   background: linear-gradient(theme('colors.white'), theme('colors.white-tint') );
 }
+.leading-xl {
+  line-height: 2.3;
+}
