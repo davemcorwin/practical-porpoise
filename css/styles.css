@@ -5,6 +5,33 @@
 html {
   scroll-behavior: smooth;
 }
+
 .gradient {
-  background: linear-gradient(to right, theme('colors.teal.600'), theme('colors.teal.500') );
+  background: linear-gradient(
+    to right,
+    theme('colors.teal.600'),
+    theme('colors.teal.500')
+  );
+}
+
+.gradient2 {
+  background: linear-gradient(
+    theme('colors.white'),
+    theme('colors.white-tint')
+  );
+}
+
+.leading-xl {
+  line-height: 2.3;
+}
+
+#skip-to-content {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

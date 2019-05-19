@@ -2,9 +2,9 @@
   "name": "Practical Porpoise",
   "short_name": "PP",
   "background_color": "#fff",
-  "description": "Practical advice and software solutions for your business.",
+  "description": "Strategy, software, and solutions for your toughest tech problems.",
   "lang": "en-US",
   "start_url": ".",
   "display": "browser",
-  "theme_color": "#38a89d"
+  "theme_color": "#319795"
 }
