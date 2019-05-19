@@ -8,7 +8,7 @@
     "build:clean": "rm -rf dist",
     "build:copy": "cp robots.txt sitemap.xml dist",
     "build": "npm run build:clean && npm run build:bundle && npm run build:copy",
-    "dev": "parcel index.html",
+    "dev": "parcel index.html --log-level 3",
     "pa11y": "pa11y --standard Section508 http://localhost:1234"
   },
   "repository": {
@@ -27,6 +27,6 @@
     "pa11y": "^5.1.0",
     "parcel-bundler": "^1.12.3",
     "prettier": "1.17.1",
-    "tailwindcss": "^1.0.0-beta.4"
+    "tailwindcss": "^1.0.1"
   }
 }
