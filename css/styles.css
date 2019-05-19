@@ -5,12 +5,22 @@
 html {
   scroll-behavior: smooth;
 }
+
 .gradient {
-  background: linear-gradient(to right, theme('colors.teal.600'), theme('colors.teal.500') );
+  background: linear-gradient(
+    to right,
+    theme('colors.teal.600'),
+    theme('colors.teal.500')
+  );
 }
+
 .gradient2 {
-  background: linear-gradient(theme('colors.white'), theme('colors.white-tint') );
+  background: linear-gradient(
+    theme('colors.white'),
+    theme('colors.white-tint')
+  );
 }
+
 .leading-xl {
   line-height: 2.3;
 }

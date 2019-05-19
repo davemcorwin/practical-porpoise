@@ -7,6 +7,6 @@ module.exports = {
       fontSize: {
         '7xl': '6rem', // 96px
       },
-    }
-  }
-}
+    },
+  },
+};
