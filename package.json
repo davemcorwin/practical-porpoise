@@ -8,8 +8,8 @@
     "build:clean": "rm -rf dist",
     "build:copy": "cp robots.txt sitemap.xml dist",
     "build": "npm run build:clean && npm run build:bundle && npm run build:copy",
-    "dev": "parcel index.html --log-level 3",
-    "pa11y": "pa11y --standard Section508 http://localhost:1234"
+    "dev": "parcel index.html",
+    "pa11y": "pa11y http://localhost:1234"
   },
   "repository": {
     "type": "git",
